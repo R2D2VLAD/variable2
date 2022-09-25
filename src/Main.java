@@ -61,16 +61,17 @@ public class Main {
         int time4 = 720*60*in1Minute;
         System.out.println("За 1 месяц, машина произвела " +time4+ " бутылок");
 
+        //Задача 5
+        System.out.println("Задача 5");
 
-
-
-
-
-
-
-
-
-
+        byte totalCans = 120;
+        byte white = 2;
+        byte brown = 4;
+        int cansPerClass = white+brown;
+        int totalClasses = totalCans/cansPerClass;
+        int totalWhitePaint = white*totalClasses;
+        int totalBrownPaint = brown*totalClasses;
+        System.out.println("В школе, где " +totalClasses+ " классов, нужно " +totalWhitePaint+ " банок белой краски и " +totalBrownPaint+ " банок коричневой краски");
 
     }
 }
