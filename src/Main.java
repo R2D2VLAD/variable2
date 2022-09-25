@@ -94,6 +94,22 @@ public class Main {
         float allBreakfastSportsInKilograms = weightSportsBreakfast/oneKg;
         System.out.println("Вес спорт завтрака " +allBreakfastSportsInKilograms+ " кг");
 
+        //Задача 7
+        System.out.println("Задача 7");
+
+        byte needToReset = 7;
+        int oneKilograms = 1000;
+        int kilogramsInGrams = needToReset*oneKilograms;
+        int inADayYouNeedToLose1 = 250;
+        int inADayYouNeedToLose2 = 500;
+        int itTakesDays1 = kilogramsInGrams/inADayYouNeedToLose1;
+        int itTakesDays2 = kilogramsInGrams/inADayYouNeedToLose2;
+        int Grams = inADayYouNeedToLose1+inADayYouNeedToLose2;
+        int averageNumberOfGrams = Grams/2;
+        int averageNumberOfDays = kilogramsInGrams/averageNumberOfGrams;
+        System.out.println("Если спортсмен будет терять каждый день по " +inADayYouNeedToLose1+ " грамм, то он похудеет за " +itTakesDays1+ " дней, если спортсмен будет терять каждый день по " +inADayYouNeedToLose2+ " грамм, то он похудеет за " +itTakesDays2+ " дней, а если спортсмен будет терять каждый день по " +averageNumberOfGrams+ " грамм, то он похудеет за " +averageNumberOfDays+ " дней");
+
+
 
 
     }
