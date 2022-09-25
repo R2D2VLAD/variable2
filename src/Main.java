@@ -73,5 +73,28 @@ public class Main {
         int totalBrownPaint = brown*totalClasses;
         System.out.println("В школе, где " +totalClasses+ " классов, нужно " +totalWhitePaint+ " банок белой краски и " +totalBrownPaint+ " банок коричневой краски");
 
+        //Задача 6
+        System.out.println("Задача 6");
+
+         byte kolbananov = 5;
+         byte weightOfOneBanana= 80;
+         int bananaWeight = kolbananov*weightOfOneBanana;
+         int kolmilk = 200;
+         int milk = kolmilk/100;
+         byte weight100Milk = 105;
+         int totalMilkWeight = milk*weight100Milk;
+         byte iceCreamBriquettes = 2;
+         byte weightOfOneBriquette = 100;
+         int totalWeightOfIceCream = iceCreamBriquettes*weightOfOneBriquette;
+         byte totalEggs = 4;
+         byte weightOfOneEgg = 70;
+         int totalWeightEgg = totalEggs*weightOfOneEgg;
+         int weightSportsBreakfast = bananaWeight+totalMilkWeight+totalWeightOfIceCream+totalWeightEgg;
+         float oneKg = 1000f;
+        float allBreakfastSportsInKilograms = weightSportsBreakfast/oneKg;
+        System.out.println("Вес спорт завтрака " +allBreakfastSportsInKilograms+ " кг");
+
+
+
     }
 }
