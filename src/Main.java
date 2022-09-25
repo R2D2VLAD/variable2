@@ -109,8 +109,20 @@ public class Main {
         int averageNumberOfDays = kilogramsInGrams/averageNumberOfGrams;
         System.out.println("Если спортсмен будет терять каждый день по " +inADayYouNeedToLose1+ " грамм, то он похудеет за " +itTakesDays1+ " дней, если спортсмен будет терять каждый день по " +inADayYouNeedToLose2+ " грамм, то он похудеет за " +itTakesDays2+ " дней, а если спортсмен будет терять каждый день по " +averageNumberOfGrams+ " грамм, то он похудеет за " +averageNumberOfDays+ " дней");
 
+        //Задача 8
+        System.out.println("Задача 8");
 
-
+        int mashaSincome = 67760;
+        int denisSincome = 83690;
+        int kristinaSincome = 76230;
+        byte percentageIncrease = 10;
+        int mashaSpromotion = mashaSincome/100*percentageIncrease;
+        int denisSpromotion = denisSincome/100*percentageIncrease;
+        int kristinaSpromotion = kristinaSincome/100*percentageIncrease;
+        int mashasNewIncome = mashaSincome+mashaSpromotion;
+        int denisNewIncome = denisSincome+denisSpromotion;
+        int kristinaNewIncome = kristinaSincome+kristinaSpromotion;
+        System.out.println("Маша теперь получает " +mashasNewIncome+ " рублей.Годовой доход вырос на " +mashaSpromotion+ " рублей. Денис теперь получает " +denisNewIncome+ " рублей.Годовой доход вырос на " +denisSpromotion+ " рублей. Кристина теперь получает " +kristinaNewIncome+ " рублей. Годовой доход вырос на " +kristinaSpromotion+ " рублей");
 
     }
 }
