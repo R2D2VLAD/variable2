@@ -36,6 +36,17 @@ public class Main {
         boolean VladsNameIsDanya = false;
         System.out.println(VladsNameIsDanya);
 
+        //Задача 3
+        System.out.println("Задача 3");
+
+        byte a = 23;
+        byte b = 27;
+        byte c = 30;
+        int d = a + b + c;
+        int e = 480/d;
+        System.out.println("На каждого ученика расчитано " + e + " листов бумаги");
+
+
 
     }
 }
