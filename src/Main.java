@@ -46,6 +46,30 @@ public class Main {
         int e = 480/d;
         System.out.println("На каждого ученика расчитано " + e + " листов бумаги");
 
+        //Задача 4
+        System.out.println("Задача 4");
+
+        byte numberOfBottles = 16;
+        byte time = 2;
+        int in1Minute = numberOfBottles/time;
+        int time1 = 20*in1Minute;
+        System.out.println("За 20 минут, машина произвела " +time1+ " бутылок");
+        int time2 = 24*60*in1Minute;
+        System.out.println("За сутки, машина произвела " +time2+ " бутылок");
+        int time3 = 72*60*in1Minute;
+        System.out.println("За 3 дня, машина произвела " +time3+ " бутылок");
+        int time4 = 720*60*in1Minute;
+        System.out.println("За 1 месяц, машина произвела " +time4+ " бутылок");
+
+
+
+
+
+
+
+
+
+
 
 
     }
