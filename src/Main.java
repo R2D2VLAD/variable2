@@ -15,5 +15,27 @@ public class Main {
         System.out.println("Значение переменной cup с типом float равно " + cup);
         double cookies = 14.3;
         System.out.println("Значение переменной cookies с типом double равно " + cookies);
+
+        //Задача 2
+        System.out.println("Задача 2");
+
+        int plate = -159;
+        System.out.println(plate);
+        byte sugarWeight = 67;
+        System.out.println(sugarWeight);
+        short fish = 569;
+        System.out.println(fish);
+        long populationOfTheCity = 987678965549L;
+        System.out.println(populationOfTheCity);
+        float weightOfPeas = 2.786f;
+        System.out.println(weightOfPeas);
+        double voltage = 27.12;
+        System.out.println(voltage);
+        char hieroglyph = 27897;
+        System.out.println(hieroglyph);
+        boolean VladsNameIsDanya = false;
+        System.out.println(VladsNameIsDanya);
+
+
     }
 }
